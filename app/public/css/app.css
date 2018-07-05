@@ -1,0 +1,35 @@
+.bg-purple {
+	background-color: #563d7c;
+}
+.text-purple {
+	color: #563d7c;
+}
+.border-purple {
+	border-color: #563d7c;
+}
+.list-group-item.active {
+	background-color: #563d7c;
+}
+.nav-link, .nav-link:hover {
+	color: #563d7c;
+}
+.fixed-left-bar {
+	position: fixed;
+    z-index: 9;
+    height: 100%;
+    background-color: #f0f0f0;
+}
+.list-group-item {
+	background-color: #f0f0f0;
+}
+.navbar-fixed {
+	position: fixed;
+	z-index: 9;
+	width: 100%;
+}
+.navbar-xxx {
+	height: 56px;
+}
+.pointer {
+	cursor: pointer;
+}

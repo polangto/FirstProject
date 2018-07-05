@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<title>15520539 - Hồ Xuân Nghĩa - Task 3.2</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/app.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-fixed navbar-expand-lg navbar-dark bg-purple">
+		  <a class="navbar-brand" href="#">15520539 - Hồ Xuân Nghĩa</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		</nav>
+		<nav class="navbar-xxx"></nav>
+	</header>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-6">
+				<div class="card mt-2">
+					<form method="POST">
+				  <h5 class="card-header bg-purple text-light">Đăng nhập nào</h5>
+				  <div class="card-body">
+					<div class="alert alert-danger"></div>
+				    <div class="form-group">
+						<label for="email">Email<code>*</code></label>
+					    <input type="text" class="form-control" name="email" id="email" placeholder="xuannghia197@gmail.com" value="xuannghia197@gmail.com" required>
+				  	</div>
+				  	<div class="form-group">
+						<label for="password">Password<code>*</code></label>
+					    <input type="password" class="form-control" name="password" id="password" value="123" required="true">
+				  	</div>
+				  	<input type="submit" id="login" name="login" class="btn btn-primary btn-lg btn-block" value="Đăng nhập" />
+
+					  <a href="/signup" class="btn btn-secondary btn-lg btn-block">Đăng ký</a>
+				  </div>
+				</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal -->
+	<div class="modal fade" id="tinhthoigian" tabindex="-1" role="dialog" aria-labelledby="tinhthoigianLable" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="tinhthoigianLable">Thông báo</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <h4>Xin chào <span class="buoi-val"></span>, <span class="gioitinh-val"></span><b><span class="name-val"></span></b></h4>
+	          <h6><span class="gioitinh-val"></span> đang ở tuổi <span class="tuoi-val"></span> và còn <span class="ngayconlai-val"></span> ngày nữa sẽ đến sinh nhật thứ <span class="tuoi-tieptheo-val"></span> của <span class="gioitinh-val"></span></h6>
+	          <h4 class="text-center">
+	          	<button class="btn btn-info" id="c-ngay"></button> ngày
+	          	<button class="btn btn-info" id="c-gio">3</button> giờ
+	          	<button class="btn btn-info" id="c-phut">3</button> phút
+	          	<button class="btn btn-info" id="c-giay">3</button> giây
+	          </h4>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-success" data-dismiss="modal">Ok</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<footer>
+	<!-- Script -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+
+	</footer>
+</body>
+</html>
